@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This code was updated using the skeleto code porvided in the assignment description.
 
-## Write a short comment describing this function
+## the makeCacheMatrix will create a matrix and cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
         m <- NULL
@@ -19,7 +18,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## the cacheSolve function will compute the inverse of the cached matrix returend 
+## from the makeCacheMtrix function above.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
